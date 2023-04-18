@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.0](https://github.com/oscarcenteno/release_versioning_automation_js/compare/v2.0.0...v2.1.0) (2023-04-18)
+
+
+### Features
+
+* explained home task on  README ([54f32b9](https://github.com/oscarcenteno/release_versioning_automation_js/commit/54f32b93a770da51c0411170a52abbcddc462de8))
+
 ## [2.0.0](https://github.com/oscarcenteno/commitlint_configuration/compare/v1.0.1...v2.0.0) (2023-04-18)
 
 
