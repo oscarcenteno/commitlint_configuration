@@ -5,13 +5,15 @@ on: [push, pull_request]
 jobs:
   commitlint:
     runs-on: ubuntu-22.04
-    sudo: true
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Install required dependencies
         run: |
+          sudo rm /var/lib/apt/lists/lock
+          sudo rm /var/cache/apt/pkgcache.bin
+          sudo rm /var/cache/apt/srcpkgcache.bin
           apt-get update
           apt-get install -y sudo
           sudo apt-get install -y git curl
