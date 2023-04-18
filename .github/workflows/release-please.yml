@@ -12,6 +12,8 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    container:
+      image: node:16
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -19,6 +21,6 @@ jobs:
       - name: Configure Release Please
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: GoogleCloudPlatform/release-please-action@v2
+        uses: GoogleCloudPlatform/release-please-action@v4
         with:
           release-type: "node"
