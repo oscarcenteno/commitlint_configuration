@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0](https://github.com/oscarcenteno/commitlint_configuration/compare/v1.0.1...v2.0.0) (2023-04-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* testing the major version number bump in release process.
+
+### Features
+
+* new README file is provided ([4382621](https://github.com/oscarcenteno/commitlint_configuration/commit/438262181460a9ead35b780f2828fad573195ae8))
+
 ## [1.0.1](https://github.com/oscarcenteno/commitlint_configuration/compare/v1.0.0...v1.0.1) (2023-04-18)
 
 
