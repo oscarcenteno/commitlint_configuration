@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.1](https://github.com/oscarcenteno/commitlint_configuration/compare/v1.0.0...v1.0.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* deleting unnecesary version from CHANGELOG ([b8f546d](https://github.com/oscarcenteno/commitlint_configuration/commit/b8f546d7402fcbe0dbb2cb2b50764ce7befbec51))
+
 ## 1.0.0 (2023-04-18)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "commitlint_configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sample configuration for having a clean git history, suign commitlint",
   "main": "index.js",
   "scripts": {
