@@ -5,6 +5,7 @@ on: [push, pull_request]
 jobs:
   commitlint:
     runs-on: ubuntu-22.04
+    sudo: true
     steps:
       - uses: actions/checkout@v3
         with:
