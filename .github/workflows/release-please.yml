@@ -21,6 +21,6 @@ jobs:
       - name: Configure Release Please
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: GoogleCloudPlatform/release-please-action@v4
+        uses: GoogleCloudPlatform/release-please-action@v3
         with:
           release-type: "node"
