@@ -17,3 +17,10 @@ npm install husky --save-dev
 npx husky install
 
 npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'
+
+npm i release-please -g
+
+release-please bootstrap \
+ --token=$GITHUB_TOKEN \
+ --repo-url=<owner>/<repo> \
+ --release-type=<release-type> [extra options]
